@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Dashboard - Certified CyberDefender</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --sidebar-bg: #1e293b;
+            --text-color: #e2e8f0;
+            --accent-color: #3b82f6;
+            --hover-color: #334155;
+            --card-bg: #1e293b;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            display: flex;
+            min-height: 100vh;
+        }
+        .sidebar {
+            width: 300px;
+            background-color: var(--sidebar-bg);
+            padding: 20px;
+            overflow-y: auto;
+            position: fixed;
+            height: 100vh;
+            border-right: 1px solid #334155;
+        }
+        .main-content {
+            margin-left: 300px;
+            padding: 40px;
+            flex-grow: 1;
+            max-width: 1200px;
+        }
+        h1, h2 {
+            color: #fff;
+        }
+        .module-section {
+            margin-bottom: 40px;
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid #334155;
+        }
+        .module-title {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--accent-color);
+            color: var(--accent-color);
+        }
+        .lecture-list {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 10px;
+        }
+        .lecture-item a {
+            display: block;
+            padding: 12px 15px;
+            background-color: #2b384d;
+            color: var(--text-color);
+            text-decoration: none;
+            border-radius: 6px;
+            transition: all 0.2s;
+            border: 1px solid transparent;
+        }
+        .lecture-item a:hover {
+            background-color: var(--hover-color);
+            border-color: var(--accent-color);
+            transform: translateX(5px);
+        }
+        .sidebar-link {
+            display: block;
+            padding: 10px;
+            color: #94a3b8;
+            text-decoration: none;
+            margin-bottom: 5px;
+            border-radius: 6px;
+        }
+        .sidebar-link:hover {
+            background-color: #334155;
+            color: #fff;
+        }
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--bg-color);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #475569;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="sidebar">
+        <h2>Modules</h2>
+<a href="#01ControlNavigation" class="sidebar-link">01. Control Navigation</a>
+<a href="#02CourseIntroduction" class="sidebar-link">02. Course Introduction</a>
+<a href="#03Module1SecurityOperationsSecOpsFundamentals" class="sidebar-link">03. Module 1 - Security Operations (SecOps) Fundamentals</a>
+<a href="#04Module2IncidentResponse" class="sidebar-link">04. Module 2 - Incident Response</a>
+<a href="#05Module3PerimeterDefenseEmailSecurity" class="sidebar-link">05. Module 3 - Perimeter Defense - Email Security</a>
+<a href="#06Module4ForensicsEvidenceCollection" class="sidebar-link">06. Module 4 - Forensics Evidence Collection</a>
+<a href="#07Module5DiskForensics" class="sidebar-link">07. Module 5 - Disk Forensics</a>
+<a href="#08Module6MemoryForensics" class="sidebar-link">08. Module 6 - Memory Forensics</a>
+<a href="#09Module7NetworkForensics" class="sidebar-link">09. Module 7 - Network Forensics</a>
+<a href="#10Module8ThreatHunting" class="sidebar-link">10. Module 8 - Threat Hunting</a>
+
+    </nav>
+    <div class="main-content">
+        <h1>Course Dashboard</h1>
+<div id="01ControlNavigation" class="module-section">
+<h2 class="module-title">01. Control Navigation</h2>
+<ul class="lecture-list">
+<li class="lecture-item"><a href="01.%20Control%20Navigation/1.%20The%20Defender%20Mindset%20hide01.ir.html" target="_blank">1. The Defender Mindset</a></li>
+<li class="lecture-item"><a href="01.%20Control%20Navigation/2.%20Access%20Exclusive%20Course%20Support%20Channels%20and%20Community%20%28Discord%29%20hide01.ir.html" target="_blank">2. Access Exclusive Course Support Channels and Community (Discord)</a></li>
+<li class="lecture-item"><a href="01.%20Control%20Navigation/3.%20Navigating%20Course%20Labs%20-%20Access%20and%20Guidelines%20hide01.ir.html" target="_blank">3. Navigating Course Labs - Access and Guidelines</a></li>
+<li class="lecture-item"><a href="01.%20Control%20Navigation/4.%20Azure%20Lab%20hide01.ir.html" target="_blank">4. Azure Lab</a></li>
+</ul>
+</div>
+<div id="02CourseIntroduction" class="module-section">
+<h2 class="module-title">02. Course Introduction</h2>
+<ul class="lecture-list">
+<li class="lecture-item"><a href="02.%20Course%20Introduction/1.%20About%20the%20course%20hide01.ir.html" target="_blank">1. About the course</a></li>
+<li class="lecture-item"><a href="02.%20Course%20Introduction/2.%20Non%20Disclosure%20Agreement%20%28NDA%29%20hide01.ir.html" target="_blank">2. Non Disclosure Agreement (NDA)</a></li>
+<li class="lecture-item"><a href="02.%20Course%20Introduction/3.%20A%20message%20from%20Instructors%20hide01.ir.html" target="_blank">3. A message from Instructors</a></li>
+</ul>
+</div>
+<div id="03Module1SecurityOperationsSecOpsFundamentals" class="module-section">
+<h2 class="module-title">03. Module 1 - Security Operations (SecOps) Fundamentals</h2>
+<ul class="lecture-list">
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/01.%20Topic%201%20-%20Security%20Operations%20Fundamentals%20and%20CIA%20Triad%20hide01.ir.html" target="_blank">01. Topic 1 - Security Operations Fundamentals and CIA Triad</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/02.%20Security%20Operation%20Centers%20%28SOC%29%20-%20Overview%20hide01.ir.html" target="_blank">02. Security Operation Centers (SOC) - Overview</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/03.%20Protecting%20Business%20with%20Efficient%20SOC%20hide01.ir.html" target="_blank">03. Protecting Business with Efficient SOC</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/04.%20SOC%20Deployment%20Models%20-%20Dedicated%20vs.%20Virtual%20hide01.ir.html" target="_blank">04. SOC Deployment Models - Dedicated vs. Virtual</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/05.%20Deploying%20a%20SOC%20-%20When%20to%20Consider%20hide01.ir.html" target="_blank">05. Deploying a SOC - When to Consider</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/06.%20Topic%202%20-%20SOC%20components%20-%20tools%20and%20technologies%20hide01.ir.html" target="_blank">06. Topic 2 - SOC components - tools and technologies</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/07.%20Network%20Firewall%20-%20Protecting%20Communication%20and%20Data%20hide01.ir.html" target="_blank">07. Network Firewall - Protecting Communication and Data</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/08.%20Network-Based%20Intrusion%20and%20Prevention%20Systems%20%28NIDS_NIPS%29%20hide01.ir.html" target="_blank">08. Network-Based Intrusion and Prevention Systems (NIDS_NIPS)</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/09.%20Host-Based%20Intrusion%20and%20Prevention%20Systems%20%28HIDS_HIPS%29%20hide01.ir.html" target="_blank">09. Host-Based Intrusion and Prevention Systems (HIDS_HIPS)</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/10.%20Lab%20-%20OSSEC%20HIDS%20hide01.ir.html" target="_blank">10. Lab - OSSEC HIDS</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/11.%20Lab%20-%20OSSEC%20-%20Architecture%20and%20Configs%20overview%20hide01.ir.html" target="_blank">11. Lab - OSSEC - Architecture and Configs overview</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/12.%20Lab%20-%20OSSEC%20-%20Detect%20webshells%20hide01.ir.html" target="_blank">12. Lab - OSSEC - Detect webshells</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/14.%20Lab%20-%20OSSEC%20-%20Detect%20persistence%20and%20privilege%20escalation%20hide01.ir.html" target="_blank">14. Lab - OSSEC - Detect persistence and privilege escalation</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/15.%20Web%20Application%20Firewalls%20%28WAFs%29%20-%20Protecting%20Web%20Apps%20hide01.ir.html" target="_blank">15. Web Application Firewalls (WAFs) - Protecting Web Apps</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/16.%20Endpoint%20Detection%20and%20Response%20%28EDR_XDR%29%20hide01.ir.html" target="_blank">16. Endpoint Detection and Response (EDR_XDR)</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/17.%20Web%20Proxy%20Servers%20-%20An%20Overview%20hide01.ir.html" target="_blank">17. Web Proxy Servers - An Overview</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/18.%20Understanding%20Vulnerability%20Management%20Process.%20hide01.ir.html" target="_blank">18. Understanding Vulnerability Management Process.</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/19.%20Lab%20-%20Nessus%20for%20Vulnerability%20Assessment%20hide01.ir.html" target="_blank">19. Lab - Nessus for Vulnerability Assessment</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/20.%20Lab%20-%20Nessus%20-%20Features%20overview%20hide01.ir.html" target="_blank">20. Lab - Nessus - Features overview</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/21.%20Lab%20-%20Nessus%20-%20Perform%20an%20authenticated%20advanced%20scan%20hide01.ir.html" target="_blank">21. Lab - Nessus - Perform an authenticated advanced scan</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/22.%20Lab%20-%20Nessus%20-%20Detect%20Log4Shell%20hide01.ir.html" target="_blank">22. Lab - Nessus - Detect Log4Shell</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/23.%20Lab%20-%20Nessus%20-%20Export%20a%20detailed%20report%20hide01.ir.html" target="_blank">23. Lab - Nessus - Export a detailed report</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/24.%20Security%20Information%20and%20Event%20Management%20%28SIEM%29%20-%20Core%20Component%20of%20SOC%20hide01.ir.html" target="_blank">24. Security Information and Event Management (SIEM) - Core Component of SOC</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/25.%20Automating%20Security%20Incident%20Response%20with%20SOAR%20%28Security%20Orchestration%2C%20Automation%2C%20and%20Response%29%20hide01.ir.html" target="_blank">25. Automating Security Incident Response with SOAR (Security Orchestration, Automation, and Response)</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/26.%20Lab%20-%20Microsoft%20Sentinel%20SIEM%20hide01.ir.html" target="_blank">26. Lab - Microsoft Sentinel SIEM</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/27.%20Lab%20-%20Microsoft%20Sentinel%20SIEM%20Overview%20hide01.ir.html" target="_blank">27. Lab - Microsoft Sentinel SIEM Overview</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/28.%20Lab%20-%20Microsoft%20Sentinel%20SIEM%20-%20How%20to%20query%20stored%20logs%20hide01.ir.html" target="_blank">28. Lab - Microsoft Sentinel SIEM - How to query stored logs</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/29.%20Lab%20-%20Microsoft%20Sentinel%20SIEM%20-%20Explore%20workbooks%20hide01.ir.html" target="_blank">29. Lab - Microsoft Sentinel SIEM - Explore workbooks</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/30.%20Lab%20-%20Microsoft%20Sentinel%20SIEM%20-%20Explore%20Analytics%20hide01.ir.html" target="_blank">30. Lab - Microsoft Sentinel SIEM - Explore Analytics</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/31.%20Lab%20-%20Microsoft%20Sentinel%20SIEM%20-%20How%20to%20investigate%20an%20incident%20hide01.ir.html" target="_blank">31. Lab - Microsoft Sentinel SIEM - How to investigate an incident</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/32.%20Malware%20Analysis%20-%20Static%20vs.%20Dynamic%20Approaches%20and%20Sandboxing%20hide01.ir.html" target="_blank">32. Malware Analysis - Static vs. Dynamic Approaches and Sandboxing</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/33.%20Using%20Honeypots%20and%20Decoys%20for%20Defense%20hide01.ir.html" target="_blank">33. Using Honeypots and Decoys for Defense</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/34.%20Lab%20-%20Canary%20Tokens%20hide01.ir.html" target="_blank">34. Lab - Canary Tokens</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/35.%20Understanding%20Cloud%20Computing%20and%20CASB%20hide01.ir.html" target="_blank">35. Understanding Cloud Computing and CASB</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/36.%20Threat%20Intelligence%20-%20Mitigating%20and%20Defending%20hide01.ir.html" target="_blank">36. Threat Intelligence - Mitigating and Defending</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/37.%20Using%20Machine%20and%20Deep%20Learning%20for%20Security%20hide01.ir.html" target="_blank">37. Using Machine and Deep Learning for Security</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/38.%20Ticketing%20Systems%20for%20Incident%20Response%20hide01.ir.html" target="_blank">38. Ticketing Systems for Incident Response</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/39.%20The%20Importance%20of%20Asset%20Inventory%20in%20Security%20hide01.ir.html" target="_blank">39. The Importance of Asset Inventory in Security</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/40.%20Topic%203%20-%20SOC%20components%20-%20people%20hide01.ir.html" target="_blank">40. Topic 3 - SOC components - people</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/41.%20Organizational%20Chart%20and%20SOC%20Roles%20hide01.ir.html" target="_blank">41. Organizational Chart and SOC Roles</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/42.%20Data%20Scientists%20-%20The%20New%20Superheroes%20hide01.ir.html" target="_blank">42. Data Scientists - The New Superheroes</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/43.%20Creating%20Effective%20Cybersecurity%20Training%20Plans%20hide01.ir.html" target="_blank">43. Creating Effective Cybersecurity Training Plans</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/44.%20Challenges%20and%20Solutions%20for%20SOC%20Jobs%20hide01.ir.html" target="_blank">44. Challenges and Solutions for SOC Jobs</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/45.%20Avoiding%20Burnout%20-%20Tips%20for%20SOC%20Analysts%20hide01.ir.html" target="_blank">45. Avoiding Burnout - Tips for SOC Analysts</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/46.%20Topic%204%20-%20SOC%20components%20-%20processes%20hide01.ir.html" target="_blank">46. Topic 4 - SOC components - processes</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/47.%20Effective%20Policies%20-%20Business%20Protection%20Through%20Documentation%20hide01.ir.html" target="_blank">47. Effective Policies - Business Protection Through Documentation</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/48.%20Efficient%20SOC%20Procedures%20-%20The%20How-To%20hide01.ir.html" target="_blank">48. Efficient SOC Procedures - The How-To</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/49.%20Security%20Standards%20-%20Compliance%20is%20Mandatory%20hide01.ir.html" target="_blank">49. Security Standards - Compliance is Mandatory</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/50.%20Security%20Guidelines%20and%20Benchmarks%20-%20Best%20Practices%20hide01.ir.html" target="_blank">50. Security Guidelines and Benchmarks - Best Practices</a></li>
+<li class="lecture-item"><a href="03.%20Module%201%20-%20Security%20Operations%20%28SecOps%29%20Fundamentals/51.%20Perform%20Windows%20Security%20Assessments%20with%20CIS-CAT%20Lite%20hide01.ir.html" target="_blank">51. Perform Windows Security Assessments with CIS-CAT Lite</a></li>
+</ul>
+</div>
+<div id="04Module2IncidentResponse" class="module-section">
+<h2 class="module-title">04. Module 2 - Incident Response</h2>
+<ul class="lecture-list">
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/1.%20Topic%201%20-%20Incident%20Response%20%28IR%29%20-%20Overview%20hide01.ir.html" target="_blank">1. Topic 1 - Incident Response (IR) - Overview</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/10.%20Structured%20Approach%20to%20Incident%20Response%20Phases%20hide01.ir.html" target="_blank">10. Structured Approach to Incident Response Phases</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/11.%20Structured%20Approach%20to%20Incident%20Response%20Phases%20-%20NIST%20Incident%20Response%20Lifecycle%20hide01.ir.html" target="_blank">11. Structured Approach to Incident Response Phases - NIST Incident Response Lifecycle</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/12.%20Structured%20Approach%20to%20Incident%20Response%20Phases%20-%20Incident%20Tracking%20hide01.ir.html" target="_blank">12. Structured Approach to Incident Response Phases - Incident Tracking</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/13.%20Structured%20Approach%20to%20Incident%20Response%20Phases%20-%20Incident%20Prioritization%20hide01.ir.html" target="_blank">13. Structured Approach to Incident Response Phases - Incident Prioritization</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/14.%20Topic%202%20-%20Preparation%20hide01.ir.html" target="_blank">14. Topic 2 - Preparation</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/15.%20Effective%20Incident%20Prevention%20Strategies%20and%20Controls%20hide01.ir.html" target="_blank">15. Effective Incident Prevention Strategies and Controls</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/16.%20%20Effective%20Incident%20Communication%20Planning%20in%20IR%20hide01.ir.html" target="_blank">16.  Effective Incident Communication Planning in IR</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/17.%20IR%20Architecture%20-%20Architecting%20an%20IR-friendly%20network%20hide01.ir.html" target="_blank">17. IR Architecture - Architecting an IR-friendly network</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/18.%20IR%20Architecture%20-%20Defense%20in%20Depth%20hide01.ir.html" target="_blank">18. IR Architecture - Defense in Depth</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/19.%20IR%20Architecture%20-%20Zero%20Trust%20hide01.ir.html" target="_blank">19. IR Architecture - Zero Trust</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/2.%20Understanding%20Key%20Concepts%20for%20Incident%20Response%20hide01.ir.html" target="_blank">2. Understanding Key Concepts for Incident Response</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/20.%20IR%20Architecture%20-%20Never%20Trust%2C%20Always%20Verify%20hide01.ir.html" target="_blank">20. IR Architecture - Never Trust, Always Verify</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/21.%20IR%20Architecture%20-%20Standardized%20Logging%20hide01.ir.html" target="_blank">21. IR Architecture - Standardized Logging</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/22.%20IR%20Policy%20hide01.ir.html" target="_blank">22. IR Policy</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/23.%20IR%20Plan%20hide01.ir.html" target="_blank">23. IR Plan</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/24.%20IR%20Procedure%20hide01.ir.html" target="_blank">24. IR Procedure</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/25.%20Efficient%20Incident%20Resolution%20with%20Management%20Platforms%20hide01.ir.html" target="_blank">25. Efficient Incident Resolution with Management Platforms</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/26.%20Topic%203%20-%20Detection%20%26%20Analysis%20hide01.ir.html" target="_blank">26. Topic 3 - Detection & Analysis</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/27.%20Detection%20Engineering%20-%20Building%20Effective%20Detectors%20hide01.ir.html" target="_blank">27. Detection Engineering - Building Effective Detectors</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/28.%20Network%20Perimeter-level%20Detection%20hide01.ir.html" target="_blank">28. Network Perimeter-level Detection</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/29.%20Lab%20-%20Suricata%20%28Network%20Level%20Detection%29%20hide01.ir.html" target="_blank">29. Lab - Suricata (Network Level Detection)</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/3.%20Understanding%20Key%20Concepts%20-%20Events%20hide01.ir.html" target="_blank">3. Understanding Key Concepts - Events</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/30.%20Lab%20-%20Suricata%20-%20Analyze%20a%20PCAP%20hide01.ir.html" target="_blank">30. Lab - Suricata - Analyze a PCAP</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/31.%20Lab%20-%20Suricata%20-%20Detect%20malicious%20traffic%20hide01.ir.html" target="_blank">31. Lab - Suricata - Detect malicious traffic</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/32.%20Lab%20-%20Suricata%20-%20Write%20a%20custom%20signature%20to%20alert%20on%20traffic%20hide01.ir.html" target="_blank">32. Lab - Suricata - Write a custom signature to alert on traffic</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/33.%20Lab%20-%20C2%20traffic%20detection%20with%20Real%20Intelligence%20Threat%20Analytics%20%28RITA%29%20hide01.ir.html" target="_blank">33. Lab - C2 traffic detection with Real Intelligence Threat Analytics (RITA)</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/34.%20Lab%20-%20Overview%20of%20RITA%20settings%20and%20usage%20hide01.ir.html" target="_blank">34. Lab - Overview of RITA settings and usage</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/35.%20Lab%20-%20RITA%20-%20Detect%20DNS%20tunneling%20hide01.ir.html" target="_blank">35. Lab - RITA - Detect DNS tunneling</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/36.%20Lab%20-%20RITA%20-%20Detect%20beaconing%20traffic%20hide01.ir.html" target="_blank">36. Lab - RITA - Detect beaconing traffic</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/37.%20Lab%20-%20RITA%20-%20Generate%20a%20report%20with%20the%20findings%20hide01.ir.html" target="_blank">37. Lab - RITA - Generate a report with the findings</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/38.%20Endpoint%20Perimeter%20Detection%20-%20Catching%20Threats%20In%20and%20Out%20hide01.ir.html" target="_blank">38. Endpoint Perimeter Detection - Catching Threats In and Out</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/39.%20Achieving%20System-Level%20Detection%20with%20EDR%20hide01.ir.html" target="_blank">39. Achieving System-Level Detection with EDR</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/4.%20Understanding%20Key%20Concepts%20-%20Incidents%20hide01.ir.html" target="_blank">4. Understanding Key Concepts - Incidents</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/40.%20Lab%20-%20Sysmon%20-%20Endpoint%20Detection%20hide01.ir.html" target="_blank">40. Lab - Sysmon - Endpoint Detection</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/41.%20Lab%20-%20Sysmon%20-%20Configuration%20overview%20hide01.ir.html" target="_blank">41. Lab - Sysmon - Configuration overview</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/42.%20Lab%20-%20Sysmon%20-%20EventTypes%20and%20custom%20config%20hide01.ir.html" target="_blank">42. Lab - Sysmon - EventTypes and custom config</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/43.%20Lab%20-%20Sysmon%20-%20Blocking%20Executables%20hide01.ir.html" target="_blank">43. Lab - Sysmon - Blocking Executables</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/45.%20Application-Level%20Detection%20-%20Prioritize%2C%20Monitor%2C%20Parse%20hide01.ir.html" target="_blank">45. Application-Level Detection - Prioritize, Monitor, Parse</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/46.%20Lab%20-%20Velociraptor%20Advanced%20Digital%20Forensic%20and%20Incident%20Response%20Tool%20hide01.ir.html" target="_blank">46. Lab - Velociraptor Advanced Digital Forensic and Incident Response Tool</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/47.%20Quick%20overview%20of%20forensic%20artifacts%20hide01.ir.html" target="_blank">47. Quick overview of forensic artifacts</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/48.%20Lab%20-%20Velociraptor%20-%20Deployment%20and%20Interface%20overview%20hide01.ir.html" target="_blank">48. Lab - Velociraptor - Deployment and Interface overview</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/49.%20Lab%20-%20Velociraptor%20-%20Artifact%20collections%20hide01.ir.html" target="_blank">49. Lab - Velociraptor - Artifact collections</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/5.%20Understanding%20Key%20Concepts%20-%20Incident%20Response%20hide01.ir.html" target="_blank">5. Understanding Key Concepts - Incident Response</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/50.%20Lab%20-%20Velociraptor%20-%20Capture%20a%20memory%20dump%20hide01.ir.html" target="_blank">50. Lab - Velociraptor - Capture a memory dump</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/51.%20Topic%204%20-%20Containment%2C%20Eradication%2C%20and%20Recovery%20hide01.ir.html" target="_blank">51. Topic 4 - Containment, Eradication, and Recovery</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/52.%20Containment%20hide01.ir.html" target="_blank">52. Containment</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/53.%20Pre%20Evidence%20Collection%20Containment%20hide01.ir.html" target="_blank">53. Pre Evidence Collection Containment</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/54.%20Evidence%20Collection%20hide01.ir.html" target="_blank">54. Evidence Collection</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/55.%20Post%20Evidence%20Collection%20Containment%20hide01.ir.html" target="_blank">55. Post Evidence Collection Containment</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/56.%20Topic%205%20-%20Attack%20Remediation%20-%20Eliminating%20Vulnerabilities%20and%20Artifacts%20hide01.ir.html" target="_blank">56. Topic 5 - Attack Remediation - Eliminating Vulnerabilities and Artifacts</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/57.%20Root%20cause%20analysis%20hide01.ir.html" target="_blank">57. Root cause analysis</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/58.%20Identifying%20other%20vulnerable%20systems%20hide01.ir.html" target="_blank">58. Identifying other vulnerable systems</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/59.%20Remediation%20and%20improving%20defenses%20hide01.ir.html" target="_blank">59. Remediation and improving defenses</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/6.%20Understanding%20Key%20Concepts%20-%20Threats%2C%20Vulnerabilities%2C%20and%20Risks%20hide01.ir.html" target="_blank">6. Understanding Key Concepts - Threats, Vulnerabilities, and Risks</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/60.%20Removing%20attacker%27s%20tools%20and%20artifacts%20hide01.ir.html" target="_blank">60. Removing attacker's tools and artifacts</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/61.%20Topic%206%20-%20System%20Recovery%20-%20Restore%2C%20Validate%2C%20Monitor%20hide01.ir.html" target="_blank">61. Topic 6 - System Recovery - Restore, Validate, Monitor</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/62.%20Restore%20hide01.ir.html" target="_blank">62. Restore</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/63.%20Validate%20hide01.ir.html" target="_blank">63. Validate</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/64.%20Monitor%20hide01.ir.html" target="_blank">64. Monitor</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/65.%20Topic%207%20-%20Post-Incident%20Activity%20hide01.ir.html" target="_blank">65. Topic 7 - Post-Incident Activity</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/66.%20Post-Incident%20Review%20-%20Lessons%20Learned%20Meeting%20hide01.ir.html" target="_blank">66. Post-Incident Review - Lessons Learned Meeting</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/67.%20Prepare%20the%20meeting%20Agenda%20hide01.ir.html" target="_blank">67. Prepare the meeting Agenda</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/68.%20Invite%20All%20Parties%20hide01.ir.html" target="_blank">68. Invite All Parties</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/69.%20Explore%20Improvement%20Areas%20hide01.ir.html" target="_blank">69. Explore Improvement Areas</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/7.%20Understanding%20Key%20Concepts%20-%20Attack_Threat%20Vectors%20hide01.ir.html" target="_blank">7. Understanding Key Concepts - Attack_Threat Vectors</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/70.%20Document%20action%20items%20and%20assign%20a%20follow-up%20lead%20hide01.ir.html" target="_blank">70. Document action items and assign a follow-up lead</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/71.%20IR%20Report%20-%20Guidelines%20for%20Effective%20Writing%20hide01.ir.html" target="_blank">71. IR Report - Guidelines for Effective Writing</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/72.%20IR%20Report%20-%20Executive%20Summary%20hide01.ir.html" target="_blank">72. IR Report - Executive Summary</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/73.%20IR%20Report%20-%20Incident%20Investigation%20hide01.ir.html" target="_blank">73. IR Report - Incident Investigation</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/8.%20Continuous%20Incident%20Response%20-%20Before%2C%20During%2C%20After%20hide01.ir.html" target="_blank">8. Continuous Incident Response - Before, During, After</a></li>
+<li class="lecture-item"><a href="04.%20Module%202%20-%20Incident%20Response/9.%20Remote%20Incident%20Response%20-%20Challenges%20and%20Benefits%20hide01.ir.html" target="_blank">9. Remote Incident Response - Challenges and Benefits</a></li>
+</ul>
+</div>
+<div id="05Module3PerimeterDefenseEmailSecurity" class="module-section">
+<h2 class="module-title">05. Module 3 - Perimeter Defense - Email Security</h2>
+<ul class="lecture-list">
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/1.%20Introduction%20hide01.ir.html" target="_blank">1. Introduction</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/10.%20DMARC%20Record%20Creation%20hide01.ir.html" target="_blank">10. DMARC Record Creation</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/11.%20Topic%202%20-%20Malicious%20Attachments%20hide01.ir.html" target="_blank">11. Topic 2 - Malicious Attachments</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/12.%20Malicious%20Attachments%20-%20Risks%20and%20Responses%20hide01.ir.html" target="_blank">12. Malicious Attachments - Risks and Responses</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/13.%20Malicious%20Attachments%20-%20Droppers%20hide01.ir.html" target="_blank">13. Malicious Attachments - Droppers</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/14.%20Secure%20Email%20Attachments%20-%20Whitelist%20allowed%20file%20types%20hide01.ir.html" target="_blank">14. Secure Email Attachments - Whitelist allowed file types</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/15.%20Secure%20Email%20Attachments%20-%20Multi%20Antivirus%20Engines%20hide01.ir.html" target="_blank">15. Secure Email Attachments - Multi Antivirus Engines</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/16.%20Secure%20Email%20Attachments%20-%20Sandbox%20Attachments%20hide01.ir.html" target="_blank">16. Secure Email Attachments - Sandbox Attachments</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/17.%20Secure%20Email%20Attachments%20-%20Content%20Disarm%20and%20Reconstruction%20hide01.ir.html" target="_blank">17. Secure Email Attachments - Content Disarm and Reconstruction</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/18.%20Secure%20Email%20Attachments%20-%20Quarantine%20Encrypted%20Attachments%20hide01.ir.html" target="_blank">18. Secure Email Attachments - Quarantine Encrypted Attachments</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/19.%20Secure%20Email%20Attachments%20-%20Attachment%20preview%20hide01.ir.html" target="_blank">19. Secure Email Attachments - Attachment preview</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/2.%20Email%20-%20The%20Primary%20Cyber%20Attack%20Vector%20hide01.ir.html" target="_blank">2. Email - The Primary Cyber Attack Vector</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/20.%20Activity%20-%20Cuckoo%20Sandbox%20Deployment%20hide01.ir.html" target="_blank">20. Activity - Cuckoo Sandbox Deployment</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/21.%20Topic%203%20-%20Malicious%20URLs%20hide01.ir.html" target="_blank">21. Topic 3 - Malicious URLs</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/22.%20Malicious%20URLs%20-%20A%20Growing%20Threat%20hide01.ir.html" target="_blank">22. Malicious URLs - A Growing Threat</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/23.%20Malicious%20URLs%20-%20Exploit%20kits%20hide01.ir.html" target="_blank">23. Malicious URLs - Exploit kits</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/24.%20Malicious%20URLs%20-%20Web%20Downloader%20hide01.ir.html" target="_blank">24. Malicious URLs - Web Downloader</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/25.%20Malicious%20URLs%20-%20Phishing%20hide01.ir.html" target="_blank">25. Malicious URLs - Phishing</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/26.%20Malicious%20URLs%20-%20phishing%20example%20hide01.ir.html" target="_blank">26. Malicious URLs - phishing example</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/27.%20Protecting%20Users%20from%20Malicious%20URLs%20hide01.ir.html" target="_blank">27. Protecting Users from Malicious URLs</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/28.%20Protecting%20Users%20from%20Malicious%20URLs%20-%20URL%20Reputation%20Filters%20hide01.ir.html" target="_blank">28. Protecting Users from Malicious URLs - URL Reputation Filters</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/29.%20Protecting%20Users%20from%20Malicious%20URLs%20-%20URL%20Sandboxing.%20hide01.ir.html" target="_blank">29. Protecting Users from Malicious URLs - URL Sandboxing.</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/3.%20Topic%201%20-%20Email%20Spoofing%20hide01.ir.html" target="_blank">3. Topic 1 - Email Spoofing</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/30.%20Protecting%20Users%20from%20Malicious%20URLs%20-%20URL%20click-time%20evaluation%20hide01.ir.html" target="_blank">30. Protecting Users from Malicious URLs - URL click-time evaluation</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/31.%20Protecting%20Users%20from%20Malicious%20URLs%20-%20Remote%20browser%20isolation%20hide01.ir.html" target="_blank">31. Protecting Users from Malicious URLs - Remote browser isolation</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/32.%20Protecting%20Users%20from%20Malicious%20URLs%20-%20URL%20preview%20hide01.ir.html" target="_blank">32. Protecting Users from Malicious URLs - URL preview</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/33.%20Activity%20-%20Detect%20Lookalike%20Domains%20hide01.ir.html" target="_blank">33. Activity - Detect Lookalike Domains</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/34.%20Topic%204%20-%20Extra%20Mile%20Controls%20hide01.ir.html" target="_blank">34. Topic 4 - Extra Mile Controls</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/35.%20User%20Education%20-%20Key%20to%20Email%20Security%20hide01.ir.html" target="_blank">35. User Education - Key to Email Security</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/36.%20Measuring%20User%20Awareness%20with%20Phishing%20Simulators%20hide01.ir.html" target="_blank">36. Measuring User Awareness with Phishing Simulators</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/37.%20Activity%20-%20GoPhish%20Deployment%20hide01.ir.html" target="_blank">37. Activity - GoPhish Deployment</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/38.%20Early%20Phishing%20Detection%20Using%20Honeypots%20Tokens%20hide01.ir.html" target="_blank">38. Early Phishing Detection Using Honeypots Tokens</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/39.%20Activity%20-%20Canary%20Token%20Deployment%20hide01.ir.html" target="_blank">39. Activity - Canary Token Deployment</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/4.%20Email%20Attack%20Prevention%20-%20Spoofing%20%26%20DMARC%20hide01.ir.html" target="_blank">4. Email Attack Prevention - Spoofing & DMARC</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/40.%20Secure%20Accounts%20with%20Multi-Factor%20Authentication%20hide01.ir.html" target="_blank">40. Secure Accounts with Multi-Factor Authentication</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/41.%20Conditional%20Access%20-%20Location-Based%20Access%20Control%20hide01.ir.html" target="_blank">41. Conditional Access - Location-Based Access Control</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/42.%20Email%20reconnaissance%20-%20How%20attackers%20gather%20intel%20hide01.ir.html" target="_blank">42. Email reconnaissance - How attackers gather intel</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/43.%20Mail%20Server%20Hardening%20-%20DISA%20%26%20CIS%20hide01.ir.html" target="_blank">43. Mail Server Hardening - DISA & CIS</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/44.%20Activity%20-%20Evaluate%20your%20organization%27s%20exposed%20internal%20mail%20headers%20hide01.ir.html" target="_blank">44. Activity - Evaluate your organization's exposed internal mail headers</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/45.%20Topic%205%20-%20Responding%20to%20Email%20Attacks%20hide01.ir.html" target="_blank">45. Topic 5 - Responding to Email Attacks</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/46.%20Validate%2C%20Mitigate%20and%20Remediate%20hide01.ir.html" target="_blank">46. Validate, Mitigate and Remediate</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/47.%20Wrap%20up%20hide01.ir.html" target="_blank">47. Wrap up</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/5.%20DMARC%20-%20Domain-based%20Message%20Authentication%2C%20Reporting%20%26%20Conformance%20hide01.ir.html" target="_blank">5. DMARC - Domain-based Message Authentication, Reporting & Conformance</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/6.%20Understanding%20SPF%20-%20Email%20Authentication%20Protocol%20hide01.ir.html" target="_blank">6. Understanding SPF - Email Authentication Protocol</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/7.%20DKIM%20-%20Email%20authentication%20with%20digital%20signatures%20hide01.ir.html" target="_blank">7. DKIM - Email authentication with digital signatures</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/8.%20How%20to%20configure%20DKIM%20for%20outgoing%20emails%20hide01.ir.html" target="_blank">8. How to configure DKIM for outgoing emails</a></li>
+<li class="lecture-item"><a href="05.%20Module%203%20-%20Perimeter%20Defense%20-%20Email%20Security/9.%20Protecting%20Against%20Email%20Spoofing%20with%20DMARC%20hide01.ir.html" target="_blank">9. Protecting Against Email Spoofing with DMARC</a></li>
+</ul>
+</div>
+<div id="06Module4ForensicsEvidenceCollection" class="module-section">
+<h2 class="module-title">06. Module 4 - Forensics Evidence Collection</h2>
+<ul class="lecture-list">
+<li class="lecture-item"><a href="06.%20Module%204%20-%20Forensics%20Evidence%20Collection/1.%20Topic%201%20-%20What%20is%20Digital%20Forensics%20hide01.ir.html" target="_blank">1. Topic 1 - What is Digital Forensics</a></li>
+<li class="lecture-item"><a href="06.%20Module%204%20-%20Forensics%20Evidence%20Collection/10.%20Topic%203%20-%20Disk%20Acquisition%20-%20Write-Blocking%20hide01.ir.html" target="_blank">10. Topic 3 - Disk Acquisition - Write-Blocking</a></li>
+<li class="lecture-item"><a href="06.%20Module%204%20-%20Forensics%20Evidence%20Collection/11.%20Disk%20Acquisition%20-%20Encrypted%20Drive%20detection%20hide01.ir.html" target="_blank">11. Disk Acquisition - Encrypted Drive detection</a></li>
+<li class="lecture-item"><a href="06.%20Module%204%20-%20Forensics%20Evidence%20Collection/12.%20Lab%20-%20Evidence%20Collection%20-%20Magnet%20Encrypted%20Disk%20Detector%20hide01.ir.html" target="_blank">12. Lab - Evidence Collection - Magnet Encrypted Disk Detector</a></li>
+<li class="lecture-item"><a href="06.%20Module%204%20-%20Forensics%20Evidence%20Collection/13.%20Triage%20Image%20-%20Efficient%20Evidence%20Collection%20on%20Windows%20Systems%20hide01.ir.html" target="_blank">13. Triage Image - Efficient Evidence Collection on Windows Systems</a></li>
+<li class="lecture-item"><a href="06.%20Module%204%20-%20Forensics%20Evidence%20Collection/14.%20Lab%20-%20Evidence%20Collection%20-%20KAPE%20hide01.ir.html" target="_blank">14. Lab - Evidence Collection - KAPE</a></li>
+<li class="lecture-item"><a href="06.%20Module%204%20-%20Forensics%20Evidence%20Collection/15.%20Triage%20Image%20-%20Efficient%20Evidence%20Collection%20on%20Linux%20Systems%20hide01.ir.html" target="_blank">15. Triage Image - Efficient Evidence Collection on Linux Systems</a></li>
+<li class="lecture-item"><a href="06.%20Module%204%20-%20Forensics%20Evidence%20Collection/16.%20Acquiring%20Disk%20Images%20-%20Windows%20Systems%20hide01.ir.html" target="_blank">16. Acquiring Disk Images - Windows Systems</a></li>
+<li class="lecture-item"><a href="06.%20Module%204%20-%20Forensics%20Evidence%20Collection/17.%20Lab%20-%20Evidence%20Collection%20-%20FTK%20Imager%20hide01.ir.html" target="_blank">17. Lab - Evidence Collection - FTK Imager</a></li>
+<li class="lecture-item"><a href="06.%20Module%204%20-%20Forensics%20Evidence%20Collection/18.%20Acquiring%20Disk%20Images%20-%20Linux%20Systems%20hide01.ir.html" target="_blank">18. Acquiring Disk Images - Linux Systems</a></li>
+<li class="lecture-item"><a href="06.%20Module%204%20-%20Forensics%20Evidence%20Collection/19.%20Topic%204%20-%20Mounting%20Forensic%20Images%20-%20Analysis%20Tools%20%26%20Techniques%20hide01.ir.html" target="_blank">19. Topic 4 - Mounting Forensic Images - Analysis Tools & Techniques</a></li>
+<li class="lecture-item"><a href="06.%20Module%204%20-%20Forensics%20Evidence%20Collection/2.%20Importance%20of%20Digital%20Forensics%20hide01.ir.html" target="_blank">2. Importance of Digital Forensics</a></li>
+<li class="lecture-item"><a href="06.%20Module%204%20-%20Forensics%20Evidence%20Collection/20.%20Lab%20-%20Evidence%20Collection%20-%20Arsenal%20Image%20Mounter%20hide01.ir.html" target="_blank">20. Lab - Evidence Collection - Arsenal Image Mounter</a></li>
+<li class="lecture-item"><a href="06.%20Module%204%20-%20Forensics%20Evidence%20Collection/22.%20Wrapping%20up%20hide01.ir.html" target="_blank">22. Wrapping up</a></li>
+<li class="lecture-item"><a href="06.%20Module%204%20-%20Forensics%20Evidence%20Collection/3.%20Digital%20Forensic%20Types%20hide01.ir.html" target="_blank">3. Digital Forensic Types</a></li>
+<li class="lecture-item"><a href="06.%20Module%204%20-%20Forensics%20Evidence%20Collection/4.%20Acquisition%20hide01.ir.html" target="_blank">4. Acquisition</a></li>
+<li class="lecture-item"><a href="06.%20Module%204%20-%20Forensics%20Evidence%20Collection/5.%20Topic%202%20-%20Memory%20Acquisition%20hide01.ir.html" target="_blank">5. Topic 2 - Memory Acquisition</a></li>
+<li class="lecture-item"><a href="06.%20Module%204%20-%20Forensics%20Evidence%20Collection/6.%20Windows%20Memory%20Live%20Acquisition%20hide01.ir.html" target="_blank">6. Windows Memory Live Acquisition</a></li>
+<li class="lecture-item"><a href="06.%20Module%204%20-%20Forensics%20Evidence%20Collection/7.%20Lab%20-%20Evidence%20Collection%20-%20DumpIt%20hide01.ir.html" target="_blank">7. Lab - Evidence Collection - DumpIt</a></li>
+<li class="lecture-item"><a href="06.%20Module%204%20-%20Forensics%20Evidence%20Collection/8.%20Windows%20Memory%20Dead%20Acquisition%20hide01.ir.html" target="_blank">8. Windows Memory Dead Acquisition</a></li>
+<li class="lecture-item"><a href="06.%20Module%204%20-%20Forensics%20Evidence%20Collection/9.%20Linux%20Memory%20Acquisition%20hide01.ir.html" target="_blank">9. Linux Memory Acquisition</a></li>
+</ul>
+</div>
+<div id="07Module5DiskForensics" class="module-section">
+<h2 class="module-title">07. Module 5 - Disk Forensics</h2>
+<ul class="lecture-list">
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/1.%20Topic%201%20-%20Windows%20Forensics%20hide01.ir.html" target="_blank">1. Topic 1 - Windows Forensics</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/11.%20Extracting%20Startup%20and%20shutdown%20time%20hide01.ir.html" target="_blank">11. Extracting Startup and shutdown time</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/13.%20Topic%203%20-%20Collecting%20Network%20connections%2C%20and%20devices%20hide01.ir.html" target="_blank">13. Topic 3 - Collecting Network connections, and devices</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/14.%20Extracting%20Network%20interfaces%20and%20configurations%20hide01.ir.html" target="_blank">14. Extracting Network interfaces and configurations</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/16.%20Discovering%20Connections%20history%20hide01.ir.html" target="_blank">16. Discovering Connections history</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/18.%20Exploring%20network%20shares%20hide01.ir.html" target="_blank">18. Exploring network shares</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/2.%20Windows%20Event%20Logs%20-%20structure%20%26%20Analysis%20hide01.ir.html" target="_blank">2. Windows Event Logs - structure & Analysis</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/20.%20Topic%204%20-%20Exploring%20User%20Information%20hide01.ir.html" target="_blank">20. Topic 4 - Exploring User Information</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/21.%20Exploring%20the%20Security%20Account%20Manager%20hide01.ir.html" target="_blank">21. Exploring the Security Account Manager</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/23.%20Tracking%20User%20Activity%20and%20Account%20Events%20hide01.ir.html" target="_blank">23. Tracking User Activity and Account Events</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/25.%20Topic%205%20-%20Collecting%20File%20and%20Folder%20Activity%20hide01.ir.html" target="_blank">25. Topic 5 - Collecting File and Folder Activity</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/26.%20Exploring%20NTFS%20Master%20File%20Table%20hide01.ir.html" target="_blank">26. Exploring NTFS Master File Table</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/28.%20Tracking%20NTFS%20File%20System%20Changes%20hide01.ir.html" target="_blank">28. Tracking NTFS File System Changes</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/3.%20Windows%20Registry%20-%20Structure%20and%20Analysis%20hide01.ir.html" target="_blank">3. Windows Registry - Structure and Analysis</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/30.%20Monitoring%20Low-Level%20Changes%20in%20NTFS%20hide01.ir.html" target="_blank">30. Monitoring Low-Level Changes in NTFS</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/32.%20File%20and%20Directory%20Tracking%20hide01.ir.html" target="_blank">32. File and Directory Tracking</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/34.%20Deleted%20Files%20Analysis%20hide01.ir.html" target="_blank">34. Deleted Files Analysis</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/36.%20Key%20Directories%20for%20Investigative%20Analysis%20hide01.ir.html" target="_blank">36. Key Directories for Investigative Analysis</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/37.%20Topic%206%20-%20Linking%20User%20Actions%20to%20Files_Folders%20hide01.ir.html" target="_blank">37. Topic 6 - Linking User Actions to Files_Folders</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/38.%20Object%20Access%20Logging%20-%20Monitoring%20File_Folder%20Activity%20hide01.ir.html" target="_blank">38. Object Access Logging - Monitoring File_Folder Activity</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/4.%20Topic%202%20-%20Profiling%20Windows%20Systems%20hide01.ir.html" target="_blank">4. Topic 2 - Profiling Windows Systems</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/40.%20Windows%20MRULists%20-%20Tracking%20User%27s%20Recent%20Actions%20hide01.ir.html" target="_blank">40. Windows MRULists - Tracking User's Recent Actions</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/42.%20Shellbags%20-%20Investigating%20User%20Folder%20Activity%20hide01.ir.html" target="_blank">42. Shellbags - Investigating User Folder Activity</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/44.%20Windows%20LNK%20Files%20-%20Analysis%20and%20Attributes%20hide01.ir.html" target="_blank">44. Windows LNK Files - Analysis and Attributes</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/46.%20Exploring%20JumpLists%20-%20Files%2C%20Associations%2C%20and%20Interactions%20hide01.ir.html" target="_blank">46. Exploring JumpLists - Files, Associations, and Interactions</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/48.%20Topic%207%20-%20Detecting%20USB%20Device%20Intrusions%20hide01.ir.html" target="_blank">48. Topic 7 - Detecting USB Device Intrusions</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/49.%20Connected%20Devices%20Forensics%20-%20Exploring%20Registry%20hide01.ir.html" target="_blank">49. Connected Devices Forensics - Exploring Registry</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/5.%20Extracting%20Windows%20version%20and%20installation%20date%20hide01.ir.html" target="_blank">5. Extracting Windows version and installation date</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/50.%20Device%20Connection%20History%20-%20setupapi.dev.log%20hide01.ir.html" target="_blank">50. Device Connection History - setupapi.dev.log</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/51.%20Connected%20Devices%20-%20Event%20Logs%20Analysis%20hide01.ir.html" target="_blank">51. Connected Devices - Event Logs Analysis</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/52.%20User%20Device%20Access%20-%20Correlating%20GUIDs%20and%20Artifacts%20hide01.ir.html" target="_blank">52. User Device Access - Correlating GUIDs and Artifacts</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/53.%20Automating%20USB%20Forensics%20-%20Tools%20and%20Techniques%20hide01.ir.html" target="_blank">53. Automating USB Forensics - Tools and Techniques</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/54.%20Detecting%20USB%20Device%20Intrusion%20-%20Wrapping%20up%20hide01.ir.html" target="_blank">54. Detecting USB Device Intrusion - Wrapping up</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/55.%20Topic%208%20-%20Analyzing%20Installed%20Applications%20hide01.ir.html" target="_blank">55. Topic 8 - Analyzing Installed Applications</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/56.%20Installed%20Microsoft%20Store%20Applications%20Database%20Exploration%20hide01.ir.html" target="_blank">56. Installed Microsoft Store Applications Database Exploration</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/57.%20Exploring%20Installed%20Applications%20in%20the%20Registry%20hide01.ir.html" target="_blank">57. Exploring Installed Applications in the Registry</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/58.%20Windows%20Event%20Logs%20-%20Tracking%20Application%20Installation%20hide01.ir.html" target="_blank">58. Windows Event Logs - Tracking Application Installation</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/59.%20Topic%209%20-%20Analyzing%20Execution%20Activities%20hide01.ir.html" target="_blank">59. Topic 9 - Analyzing Execution Activities</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/60.%20Windows%20Services%20-%20Configuration%2C%20Timeline%2C%20and%20Events%20hide01.ir.html" target="_blank">60. Windows Services - Configuration, Timeline, and Events</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/61.%20Windows%20Timeline%20-%20Analyzing%20User%20Activities%20and%20Applications%20hide01.ir.html" target="_blank">61. Windows Timeline - Analyzing User Activities and Applications</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/62.%20Persistent%20Malware%20-%20Examining%20Autorun%20Applications%20hide01.ir.html" target="_blank">62. Persistent Malware - Examining Autorun Applications</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/63.%20UserAssist%20Registry%20Key%20-%20Program%20Usage%20Insights%20hide01.ir.html" target="_blank">63. UserAssist Registry Key - Program Usage Insights</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/64.%20Exploring%20ShimCache%20-%20Uncovering%20Application%20Compatibility%20Insights%20hide01.ir.html" target="_blank">64. Exploring ShimCache - Uncovering Application Compatibility Insights</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/65.%20AmCache.hve%20-%20Tracking%20Installed%20Programs%20and%20History%20hide01.ir.html" target="_blank">65. AmCache.hve - Tracking Installed Programs and History</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/66.%20Windows%20BAM%20Registry%20Key%20-%20Background%20Activity%20Monitoring%20hide01.ir.html" target="_blank">66. Windows BAM Registry Key - Background Activity Monitoring</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/67.%20Windows%20Prefetch%20Analysis%20hide01.ir.html" target="_blank">67. Windows Prefetch Analysis</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/68.%20Windows%20SRUM%20-%20Tracking%20System%20Resource%20Usage%20hide01.ir.html" target="_blank">68. Windows SRUM - Tracking System Resource Usage</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/69.%20Microsoft%20Office%20Dialog%20Alerts%20Log%20hide01.ir.html" target="_blank">69. Microsoft Office Dialog Alerts Log</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/7.%20Extracting%20Computer%20name%20hide01.ir.html" target="_blank">7. Extracting Computer name</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/70.%20Analysis%20of%20Windows%20Scheduled%20Tasks%20hide01.ir.html" target="_blank">70. Analysis of Windows Scheduled Tasks</a></li>
+<li class="lecture-item"><a href="07.%20Module%205%20-%20Disk%20Forensics/9.%20Extracting%20Time%20zone%20hide01.ir.html" target="_blank">9. Extracting Time zone</a></li>
+</ul>
+</div>
+<div id="08Module6MemoryForensics" class="module-section">
+<h2 class="module-title">08. Module 6 - Memory Forensics</h2>
+<ul class="lecture-list">
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/1.%20Windows%20Memory%20Forensics%20hide01.ir.html" target="_blank">1. Windows Memory Forensics</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/10.%20Uncovering%20Hidden%20Processes%20hide01.ir.html" target="_blank">10. Uncovering Hidden Processes</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/11.%20Detecting%20Hidden%20Processes%20-%20Crossview%20Analysis%20hide01.ir.html" target="_blank">11. Detecting Hidden Processes - Crossview Analysis</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/13.%20Examining%20Process%20Details%20hide01.ir.html" target="_blank">13. Examining Process Details</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/14.%20Exploring%20Process%27%20privileges%20hide01.ir.html" target="_blank">14. Exploring Process' privileges</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/15.%20Processes%20Analysis%20-%20wrapping%20up%20hide01.ir.html" target="_blank">15. Processes Analysis - wrapping up</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/16.%20Topic%203%20-%20Network%20connections%20Analysis%20hide01.ir.html" target="_blank">16. Topic 3 - Network connections Analysis</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/17.%20Listing%20network%20connections%20information%20hide01.ir.html" target="_blank">17. Listing network connections information</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/18.%20Network%20connections%20Analysis%20-%20Use%20case%20hide01.ir.html" target="_blank">18. Network connections Analysis - Use case</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/19.%20Network%20connections%20Analysis%20-%20Wrap%20up%20hide01.ir.html" target="_blank">19. Network connections Analysis - Wrap up</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/2.%20Volatility%202%20hide01.ir.html" target="_blank">2. Volatility 2</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/20.%20Topic%204%20-%20Detecting%20Persistence%20Techniques%20hide01.ir.html" target="_blank">20. Topic 4 - Detecting Persistence Techniques</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/21.%20Detecting%20Persistence%20Techniques%20-%20Registry%20analysis%20hide01.ir.html" target="_blank">21. Detecting Persistence Techniques - Registry analysis</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/22.%20Detecting%20Persistence%20Techniques%20-%20Common%20persistence-related%20registry%20keys%20hide01.ir.html" target="_blank">22. Detecting Persistence Techniques - Common persistence-related registry keys</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/23.%20Detecting%20Persistence%20Techniques%20-%20Automation%20hide01.ir.html" target="_blank">23. Detecting Persistence Techniques - Automation</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/24.%20Topic%205%20-%20Collecting%20Files%20Artifacts%20hide01.ir.html" target="_blank">24. Topic 5 - Collecting Files Artifacts</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/25.%20Exploring%20Master%20File%20Table%20%28MFT%29%20in%20memory%20hide01.ir.html" target="_blank">25. Exploring Master File Table (MFT) in memory</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/26.%20Parsing%20MFT%20entries%20in%20Memory%20hide01.ir.html" target="_blank">26. Parsing MFT entries in Memory</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/27.%20Exploring%20MFT%20entries%20-%20Use%20case%20hide01.ir.html" target="_blank">27. Exploring MFT entries - Use case</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/3.%20Topic%201%20-%20Collecting%20OS%20Info%20hide01.ir.html" target="_blank">3. Topic 1 - Collecting OS Info</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/4.%20Identifying%20OS%20version%20hide01.ir.html" target="_blank">4. Identifying OS version</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/5.%20Analyzing%20KDBG%20Signatures%20hide01.ir.html" target="_blank">5. Analyzing KDBG Signatures</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/6.%20Topic%202%20-%20Understanding%20Windows%20Processes%20-%20Exploring%20Memory%2C%20Threads%2C%20and%20Processes%20Relationships%20hide01.ir.html" target="_blank">6. Topic 2 - Understanding Windows Processes - Exploring Memory, Threads, and Processes Relationships</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/7.%20Processes%20Analysis%20hide01.ir.html" target="_blank">7. Processes Analysis</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/8.%20Processes%20listing%20hide01.ir.html" target="_blank">8. Processes listing</a></li>
+<li class="lecture-item"><a href="08.%20Module%206%20-%20Memory%20Forensics/9.%20Exploring%20Processes%27%20Parent-child%20relationship%20hide01.ir.html" target="_blank">9. Exploring Processes' Parent-child relationship</a></li>
+</ul>
+</div>
+<div id="09Module7NetworkForensics" class="module-section">
+<h2 class="module-title">09. Module 7 - Network Forensics</h2>
+<ul class="lecture-list">
+<li class="lecture-item"><a href="09.%20Module%207%20-%20Network%20Forensics/1.%20Topic%201%20-%20Network%20Forensics%20hide01.ir.html" target="_blank">1. Topic 1 - Network Forensics</a></li>
+<li class="lecture-item"><a href="09.%20Module%207%20-%20Network%20Forensics/10.%20Topic%205%20-%20Protocol%20streams%20hide01.ir.html" target="_blank">10. Topic 5 - Protocol streams</a></li>
+<li class="lecture-item"><a href="09.%20Module%207%20-%20Network%20Forensics/11.%20Topic%206%20-%20File%20extraction%20hide01.ir.html" target="_blank">11. Topic 6 - File extraction</a></li>
+<li class="lecture-item"><a href="09.%20Module%207%20-%20Network%20Forensics/12.%20Topic%207%20-%20Network%20forensics%20-%20Use%20cases%20hide01.ir.html" target="_blank">12. Topic 7 - Network forensics - Use cases</a></li>
+<li class="lecture-item"><a href="09.%20Module%207%20-%20Network%20Forensics/2.%20Wireshark%20-%20overview%20hide01.ir.html" target="_blank">2. Wireshark - overview</a></li>
+<li class="lecture-item"><a href="09.%20Module%207%20-%20Network%20Forensics/3.%20Wireshark%20-%20Components%20hide01.ir.html" target="_blank">3. Wireshark - Components</a></li>
+<li class="lecture-item"><a href="09.%20Module%207%20-%20Network%20Forensics/4.%20Topic%202%20-%20Packet%20captures%20files%20hide01.ir.html" target="_blank">4. Topic 2 - Packet captures files</a></li>
+<li class="lecture-item"><a href="09.%20Module%207%20-%20Network%20Forensics/5.%20Topic%203%20-%20Packet%20Filtering%20in%20Wireshark%20-%20Techniques%20for%20Precise%20Network%20Analysis%20hide01.ir.html" target="_blank">5. Topic 3 - Packet Filtering in Wireshark - Techniques for Precise Network Analysis</a></li>
+<li class="lecture-item"><a href="09.%20Module%207%20-%20Network%20Forensics/6.%20Topic%204%20-%20Exploring%20Network%20Statistics%20-%20Insights%20and%20Analysis%20hide01.ir.html" target="_blank">6. Topic 4 - Exploring Network Statistics - Insights and Analysis</a></li>
+<li class="lecture-item"><a href="09.%20Module%207%20-%20Network%20Forensics/7.%20Capture%20File%20Properties%20hide01.ir.html" target="_blank">7. Capture File Properties</a></li>
+<li class="lecture-item"><a href="09.%20Module%207%20-%20Network%20Forensics/8.%20Protocol%20Hierarchy%20hide01.ir.html" target="_blank">8. Protocol Hierarchy</a></li>
+</ul>
+</div>
+<div id="10Module8ThreatHunting" class="module-section">
+<h2 class="module-title">10. Module 8 - Threat Hunting</h2>
+<ul class="lecture-list">
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/1.%20Proactive%20Human-driven%20Threat%20Hunting%20hide01.ir.html" target="_blank">1. Proactive Human-driven Threat Hunting</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/10.%20Stages%20of%20Threat%20Hunting%20in%20Detail%20-%20what%20to%20hunt%20for%20hide01.ir.html" target="_blank">10. Stages of Threat Hunting in Detail - what to hunt for</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/11.%20Stages%20of%20Threat%20Hunting%20in%20Detail%20-%20hunting%20techniques%20hide01.ir.html" target="_blank">11. Stages of Threat Hunting in Detail - hunting techniques</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/12.%20Stages%20of%20Threat%20Hunting%20in%20Detail%20-%20output%20of%20the%20hunt%20hide01.ir.html" target="_blank">12. Stages of Threat Hunting in Detail - output of the hunt</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/13.%20Elastic%20SIEM%20-%20Modern%2C%20Scalable%20Threat%20Detection%20hide01.ir.html" target="_blank">13. Elastic SIEM - Modern, Scalable Threat Detection</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/14.%20Elastic%20SIEM%20-%20Components%20and%20Architecture%20hide01.ir.html" target="_blank">14. Elastic SIEM - Components and Architecture</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/15.%20Starting%20and%20Accessing%20Elastic%20Stack%20and%20Kibana%20hide01.ir.html" target="_blank">15. Starting and Accessing Elastic Stack and Kibana</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/16.%20Elastic%20Agent%20and%20Fleet%20Management%20Overview%20hide01.ir.html" target="_blank">16. Elastic Agent and Fleet Management Overview</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/17.%20Enroll%20Elastic%20Agent%20via%20Fleet%20in%20Kibana%20hide01.ir.html" target="_blank">17. Enroll Elastic Agent via Fleet in Kibana</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/18.%20Exploring%20Kibana%20Concepts%20and%20Filtering%20Data%20hide01.ir.html" target="_blank">18. Exploring Kibana Concepts and Filtering Data</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/19.%20Dashboards%20and%20Data%20Visualization%20in%20Kibana%20hide01.ir.html" target="_blank">19. Dashboards and Data Visualization in Kibana</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/2.%20Proactive%20Human-driven%20Threat%20Hunting%20-%20Behavior-based%20detection%20hide01.ir.html" target="_blank">2. Proactive Human-driven Threat Hunting - Behavior-based detection</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/20.%20Creating%20a%20Custom%20Detection%20Rule%20with%20MITRE%20ATT%26CK%20Framework%20hide01.ir.html" target="_blank">20. Creating a Custom Detection Rule with MITRE ATT&CK Framework</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/22.%20Endpoint%20Threat%20Hunting%20-%20Proactive%20Security%20Measures%20hide01.ir.html" target="_blank">22. Endpoint Threat Hunting - Proactive Security Measures</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/23.%20Endpoint%20Hunting%20for%20Persistence%20hide01.ir.html" target="_blank">23. Endpoint Hunting for Persistence</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/24.%20Endpoint%20Hunting%20for%20Lateral%20Movement%20hide01.ir.html" target="_blank">24. Endpoint Hunting for Lateral Movement</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/25.%20Endpoint%20Hunting%20for%20Credential%20Dumping%20hide01.ir.html" target="_blank">25. Endpoint Hunting for Credential Dumping</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/26.%20Proactively%20Detecting%20Threats%20-%20Network%20Hunting%20Fundamentals%20hide01.ir.html" target="_blank">26. Proactively Detecting Threats - Network Hunting Fundamentals</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/27.%20Network%20Hunting%20for%20Lateral%20Movement%20hide01.ir.html" target="_blank">27. Network Hunting for Lateral Movement</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/28.%20Network%20Hunting%20for%20Data%20Exfiltration%20hide01.ir.html" target="_blank">28. Network Hunting for Data Exfiltration</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/29.%20Lab%20-%20Yara%20-%20Intel%20sharing%20%28FireEye%20case%29%20hide01.ir.html" target="_blank">29. Lab - Yara - Intel sharing (FireEye case)</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/3.%20Proactive%20Human-driven%20Threat%20Hunting%20-%20Proactive%20hide01.ir.html" target="_blank">3. Proactive Human-driven Threat Hunting - Proactive</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/4.%20Proactive%20Human-driven%20Threat%20Hunting%20-%20Hypothesis-based%20hide01.ir.html" target="_blank">4. Proactive Human-driven Threat Hunting - Hypothesis-based</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/5.%20Proactive%20Human-driven%20Threat%20Hunting%20-%20Human-driven%20hide01.ir.html" target="_blank">5. Proactive Human-driven Threat Hunting - Human-driven</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/6.%20Proactive%20Human-driven%20Threat%20Hunting%20-%20Automation%20hide01.ir.html" target="_blank">6. Proactive Human-driven Threat Hunting - Automation</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/7.%20The%20Importance%20of%20Proactive%20Threat%20Hunting%20hide01.ir.html" target="_blank">7. The Importance of Proactive Threat Hunting</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/8.%20Essential%20Requirements%20for%20Effective%20Threat%20Hunting%20hide01.ir.html" target="_blank">8. Essential Requirements for Effective Threat Hunting</a></li>
+<li class="lecture-item"><a href="10.%20Module%208%20-%20Threat%20Hunting/9.%20Stages%20of%20Threat%20Hunting%20in%20Detail%20hide01.ir.html" target="_blank">9. Stages of Threat Hunting in Detail</a></li>
+</ul>
+</div>
+
+    </div>
+</body>
+</html>

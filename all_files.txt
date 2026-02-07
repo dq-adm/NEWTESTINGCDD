@@ -1,0 +1,313 @@
+﻿D:\Certified CyberDefender (CCD) Blue Team Training 2025\01. Control Navigation\1. The Defender Mindset hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\01. Control Navigation\2. Access Exclusive Course Support Channels and Community (Discord) hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\01. Control Navigation\3. Navigating Course Labs - Access and Guidelines hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\01. Control Navigation\4. Azure Lab hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\02. Course Introduction\1. About the course hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\02. Course Introduction\2. Non Disclosure Agreement (NDA) hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\02. Course Introduction\3. A message from Instructors hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\01. Topic 1 - Security Operations Fundamentals and CIA Triad hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\02. Security Operation Centers (SOC) - Overview hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\03. Protecting Business with Efficient SOC hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\04. SOC Deployment Models - Dedicated vs. Virtual hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\05. Deploying a SOC - When to Consider hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\06. Topic 2 - SOC components - tools and technologies hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\07. Network Firewall - Protecting Communication and Data hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\08. Network-Based Intrusion and Prevention Systems (NIDS_NIPS) hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\09. Host-Based Intrusion and Prevention Systems (HIDS_HIPS) hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\10. Lab - OSSEC HIDS hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\11. Lab - OSSEC - Architecture and Configs overview hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\12. Lab - OSSEC - Detect webshells hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\14. Lab - OSSEC - Detect persistence and privilege escalation hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\15. Web Application Firewalls (WAFs) - Protecting Web Apps hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\16. Endpoint Detection and Response (EDR_XDR) hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\17. Web Proxy Servers - An Overview hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\18. Understanding Vulnerability Management Process. hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\19. Lab - Nessus for Vulnerability Assessment hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\20. Lab - Nessus - Features overview hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\21. Lab - Nessus - Perform an authenticated advanced scan hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\22. Lab - Nessus - Detect Log4Shell hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\23. Lab - Nessus - Export a detailed report hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\24. Security Information and Event Management (SIEM) - Core Component of SOC hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\25. Automating Security Incident Response with SOAR (Security Orchestration, Automation, and Response) hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\26. Lab - Microsoft Sentinel SIEM hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\27. Lab - Microsoft Sentinel SIEM Overview hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\28. Lab - Microsoft Sentinel SIEM - How to query stored logs hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\29. Lab - Microsoft Sentinel SIEM - Explore workbooks hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\30. Lab - Microsoft Sentinel SIEM - Explore Analytics hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\31. Lab - Microsoft Sentinel SIEM - How to investigate an incident hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\32. Malware Analysis - Static vs. Dynamic Approaches and Sandboxing hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\33. Using Honeypots and Decoys for Defense hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\34. Lab - Canary Tokens hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\35. Understanding Cloud Computing and CASB hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\36. Threat Intelligence - Mitigating and Defending hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\37. Using Machine and Deep Learning for Security hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\38. Ticketing Systems for Incident Response hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\39. The Importance of Asset Inventory in Security hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\40. Topic 3 - SOC components - people hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\41. Organizational Chart and SOC Roles hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\42. Data Scientists - The New Superheroes hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\43. Creating Effective Cybersecurity Training Plans hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\44. Challenges and Solutions for SOC Jobs hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\45. Avoiding Burnout - Tips for SOC Analysts hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\46. Topic 4 - SOC components - processes hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\47. Effective Policies - Business Protection Through Documentation hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\48. Efficient SOC Procedures - The How-To hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\49. Security Standards - Compliance is Mandatory hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\50. Security Guidelines and Benchmarks - Best Practices hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\03. Module 1 - Security Operations (SecOps) Fundamentals\51. Perform Windows Security Assessments with CIS-CAT Lite hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\1. Topic 1 - Incident Response (IR) - Overview hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\10. Structured Approach to Incident Response Phases hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\11. Structured Approach to Incident Response Phases - NIST Incident Response Lifecycle hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\12. Structured Approach to Incident Response Phases - Incident Tracking hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\13. Structured Approach to Incident Response Phases - Incident Prioritization hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\14. Topic 2 - Preparation hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\15. Effective Incident Prevention Strategies and Controls hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\16.  Effective Incident Communication Planning in IR hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\17. IR Architecture - Architecting an IR-friendly network hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\18. IR Architecture - Defense in Depth hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\19. IR Architecture - Zero Trust hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\2. Understanding Key Concepts for Incident Response hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\20. IR Architecture - Never Trust, Always Verify hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\21. IR Architecture - Standardized Logging hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\22. IR Policy hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\23. IR Plan hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\24. IR Procedure hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\25. Efficient Incident Resolution with Management Platforms hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\26. Topic 3 - Detection & Analysis hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\27. Detection Engineering - Building Effective Detectors hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\28. Network Perimeter-level Detection hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\29. Lab - Suricata (Network Level Detection) hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\3. Understanding Key Concepts - Events hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\30. Lab - Suricata - Analyze a PCAP hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\31. Lab - Suricata - Detect malicious traffic hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\32. Lab - Suricata - Write a custom signature to alert on traffic hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\33. Lab - C2 traffic detection with Real Intelligence Threat Analytics (RITA) hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\34. Lab - Overview of RITA settings and usage hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\35. Lab - RITA - Detect DNS tunneling hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\36. Lab - RITA - Detect beaconing traffic hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\37. Lab - RITA - Generate a report with the findings hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\38. Endpoint Perimeter Detection - Catching Threats In and Out hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\39. Achieving System-Level Detection with EDR hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\4. Understanding Key Concepts - Incidents hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\40. Lab - Sysmon - Endpoint Detection hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\41. Lab - Sysmon - Configuration overview hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\42. Lab - Sysmon - EventTypes and custom config hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\43. Lab - Sysmon - Blocking Executables hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\45. Application-Level Detection - Prioritize, Monitor, Parse hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\46. Lab - Velociraptor Advanced Digital Forensic and Incident Response Tool hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\47. Quick overview of forensic artifacts hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\48. Lab - Velociraptor - Deployment and Interface overview hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\49. Lab - Velociraptor - Artifact collections hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\5. Understanding Key Concepts - Incident Response hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\50. Lab - Velociraptor - Capture a memory dump hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\51. Topic 4 - Containment, Eradication, and Recovery hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\52. Containment hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\53. Pre Evidence Collection Containment hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\54. Evidence Collection hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\55. Post Evidence Collection Containment hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\56. Topic 5 - Attack Remediation - Eliminating Vulnerabilities and Artifacts hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\57. Root cause analysis hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\58. Identifying other vulnerable systems hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\59. Remediation and improving defenses hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\6. Understanding Key Concepts - Threats, Vulnerabilities, and Risks hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\60. Removing attacker's tools and artifacts hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\61. Topic 6 - System Recovery - Restore, Validate, Monitor hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\62. Restore hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\63. Validate hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\64. Monitor hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\65. Topic 7 - Post-Incident Activity hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\66. Post-Incident Review - Lessons Learned Meeting hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\67. Prepare the meeting Agenda hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\68. Invite All Parties hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\69. Explore Improvement Areas hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\7. Understanding Key Concepts - Attack_Threat Vectors hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\70. Document action items and assign a follow-up lead hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\71. IR Report - Guidelines for Effective Writing hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\72. IR Report - Executive Summary hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\73. IR Report - Incident Investigation hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\8. Continuous Incident Response - Before, During, After hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\04. Module 2 - Incident Response\9. Remote Incident Response - Challenges and Benefits hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\1. Introduction hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\10. DMARC Record Creation hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\11. Topic 2 - Malicious Attachments hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\12. Malicious Attachments - Risks and Responses hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\13. Malicious Attachments - Droppers hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\14. Secure Email Attachments - Whitelist allowed file types hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\15. Secure Email Attachments - Multi Antivirus Engines hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\16. Secure Email Attachments - Sandbox Attachments hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\17. Secure Email Attachments - Content Disarm and Reconstruction hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\18. Secure Email Attachments - Quarantine Encrypted Attachments hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\19. Secure Email Attachments - Attachment preview hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\2. Email - The Primary Cyber Attack Vector hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\20. Activity - Cuckoo Sandbox Deployment hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\21. Topic 3 - Malicious URLs hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\22. Malicious URLs - A Growing Threat hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\23. Malicious URLs - Exploit kits hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\24. Malicious URLs - Web Downloader hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\25. Malicious URLs - Phishing hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\26. Malicious URLs - phishing example hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\27. Protecting Users from Malicious URLs hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\28. Protecting Users from Malicious URLs - URL Reputation Filters hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\29. Protecting Users from Malicious URLs - URL Sandboxing. hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\3. Topic 1 - Email Spoofing hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\30. Protecting Users from Malicious URLs - URL click-time evaluation hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\31. Protecting Users from Malicious URLs - Remote browser isolation hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\32. Protecting Users from Malicious URLs - URL preview hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\33. Activity - Detect Lookalike Domains hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\34. Topic 4 - Extra Mile Controls hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\35. User Education - Key to Email Security hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\36. Measuring User Awareness with Phishing Simulators hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\37. Activity - GoPhish Deployment hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\38. Early Phishing Detection Using Honeypots Tokens hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\39. Activity - Canary Token Deployment hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\4. Email Attack Prevention - Spoofing & DMARC hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\40. Secure Accounts with Multi-Factor Authentication hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\41. Conditional Access - Location-Based Access Control hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\42. Email reconnaissance - How attackers gather intel hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\43. Mail Server Hardening - DISA & CIS hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\44. Activity - Evaluate your organization's exposed internal mail headers hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\45. Topic 5 - Responding to Email Attacks hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\46. Validate, Mitigate and Remediate hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\47. Wrap up hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\5. DMARC - Domain-based Message Authentication, Reporting & Conformance hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\6. Understanding SPF - Email Authentication Protocol hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\7. DKIM - Email authentication with digital signatures hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\8. How to configure DKIM for outgoing emails hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\05. Module 3 - Perimeter Defense - Email Security\9. Protecting Against Email Spoofing with DMARC hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\06. Module 4 - Forensics Evidence Collection\1. Topic 1 - What is Digital Forensics hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\06. Module 4 - Forensics Evidence Collection\10. Topic 3 - Disk Acquisition - Write-Blocking hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\06. Module 4 - Forensics Evidence Collection\11. Disk Acquisition - Encrypted Drive detection hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\06. Module 4 - Forensics Evidence Collection\12. Lab - Evidence Collection - Magnet Encrypted Disk Detector hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\06. Module 4 - Forensics Evidence Collection\13. Triage Image - Efficient Evidence Collection on Windows Systems hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\06. Module 4 - Forensics Evidence Collection\14. Lab - Evidence Collection - KAPE hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\06. Module 4 - Forensics Evidence Collection\15. Triage Image - Efficient Evidence Collection on Linux Systems hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\06. Module 4 - Forensics Evidence Collection\16. Acquiring Disk Images - Windows Systems hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\06. Module 4 - Forensics Evidence Collection\17. Lab - Evidence Collection - FTK Imager hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\06. Module 4 - Forensics Evidence Collection\18. Acquiring Disk Images - Linux Systems hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\06. Module 4 - Forensics Evidence Collection\19. Topic 4 - Mounting Forensic Images - Analysis Tools & Techniques hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\06. Module 4 - Forensics Evidence Collection\2. Importance of Digital Forensics hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\06. Module 4 - Forensics Evidence Collection\20. Lab - Evidence Collection - Arsenal Image Mounter hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\06. Module 4 - Forensics Evidence Collection\22. Wrapping up hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\06. Module 4 - Forensics Evidence Collection\3. Digital Forensic Types hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\06. Module 4 - Forensics Evidence Collection\4. Acquisition hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\06. Module 4 - Forensics Evidence Collection\5. Topic 2 - Memory Acquisition hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\06. Module 4 - Forensics Evidence Collection\6. Windows Memory Live Acquisition hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\06. Module 4 - Forensics Evidence Collection\7. Lab - Evidence Collection - DumpIt hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\06. Module 4 - Forensics Evidence Collection\8. Windows Memory Dead Acquisition hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\06. Module 4 - Forensics Evidence Collection\9. Linux Memory Acquisition hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\1. Topic 1 - Windows Forensics hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\11. Extracting Startup and shutdown time hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\13. Topic 3 - Collecting Network connections, and devices hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\14. Extracting Network interfaces and configurations hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\16. Discovering Connections history hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\18. Exploring network shares hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\2. Windows Event Logs - structure & Analysis hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\20. Topic 4 - Exploring User Information hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\21. Exploring the Security Account Manager hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\23. Tracking User Activity and Account Events hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\25. Topic 5 - Collecting File and Folder Activity hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\26. Exploring NTFS Master File Table hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\28. Tracking NTFS File System Changes hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\3. Windows Registry - Structure and Analysis hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\30. Monitoring Low-Level Changes in NTFS hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\32. File and Directory Tracking hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\34. Deleted Files Analysis hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\36. Key Directories for Investigative Analysis hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\37. Topic 6 - Linking User Actions to Files_Folders hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\38. Object Access Logging - Monitoring File_Folder Activity hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\4. Topic 2 - Profiling Windows Systems hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\40. Windows MRULists - Tracking User's Recent Actions hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\42. Shellbags - Investigating User Folder Activity hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\44. Windows LNK Files - Analysis and Attributes hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\46. Exploring JumpLists - Files, Associations, and Interactions hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\48. Topic 7 - Detecting USB Device Intrusions hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\49. Connected Devices Forensics - Exploring Registry hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\5. Extracting Windows version and installation date hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\50. Device Connection History - setupapi.dev.log hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\51. Connected Devices - Event Logs Analysis hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\52. User Device Access - Correlating GUIDs and Artifacts hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\53. Automating USB Forensics - Tools and Techniques hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\54. Detecting USB Device Intrusion - Wrapping up hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\55. Topic 8 - Analyzing Installed Applications hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\56. Installed Microsoft Store Applications Database Exploration hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\57. Exploring Installed Applications in the Registry hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\58. Windows Event Logs - Tracking Application Installation hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\59. Topic 9 - Analyzing Execution Activities hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\60. Windows Services - Configuration, Timeline, and Events hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\61. Windows Timeline - Analyzing User Activities and Applications hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\62. Persistent Malware - Examining Autorun Applications hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\63. UserAssist Registry Key - Program Usage Insights hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\64. Exploring ShimCache - Uncovering Application Compatibility Insights hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\65. AmCache.hve - Tracking Installed Programs and History hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\66. Windows BAM Registry Key - Background Activity Monitoring hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\67. Windows Prefetch Analysis hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\68. Windows SRUM - Tracking System Resource Usage hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\69. Microsoft Office Dialog Alerts Log hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\7. Extracting Computer name hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\70. Analysis of Windows Scheduled Tasks hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\07. Module 5 - Disk Forensics\9. Extracting Time zone hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\1. Windows Memory Forensics hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\10. Uncovering Hidden Processes hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\11. Detecting Hidden Processes - Crossview Analysis hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\13. Examining Process Details hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\14. Exploring Process' privileges hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\15. Processes Analysis - wrapping up hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\16. Topic 3 - Network connections Analysis hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\17. Listing network connections information hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\18. Network connections Analysis - Use case hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\19. Network connections Analysis - Wrap up hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\2. Volatility 2 hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\20. Topic 4 - Detecting Persistence Techniques hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\21. Detecting Persistence Techniques - Registry analysis hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\22. Detecting Persistence Techniques - Common persistence-related registry keys hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\23. Detecting Persistence Techniques - Automation hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\24. Topic 5 - Collecting Files Artifacts hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\25. Exploring Master File Table (MFT) in memory hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\26. Parsing MFT entries in Memory hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\27. Exploring MFT entries - Use case hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\3. Topic 1 - Collecting OS Info hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\4. Identifying OS version hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\5. Analyzing KDBG Signatures hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\6. Topic 2 - Understanding Windows Processes - Exploring Memory, Threads, and Processes Relationships hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\7. Processes Analysis hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\8. Processes listing hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\08. Module 6 - Memory Forensics\9. Exploring Processes' Parent-child relationship hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\09. Module 7 - Network Forensics\1. Topic 1 - Network Forensics hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\09. Module 7 - Network Forensics\10. Topic 5 - Protocol streams hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\09. Module 7 - Network Forensics\11. Topic 6 - File extraction hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\09. Module 7 - Network Forensics\12. Topic 7 - Network forensics - Use cases hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\09. Module 7 - Network Forensics\2. Wireshark - overview hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\09. Module 7 - Network Forensics\3. Wireshark - Components hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\09. Module 7 - Network Forensics\4. Topic 2 - Packet captures files hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\09. Module 7 - Network Forensics\5. Topic 3 - Packet Filtering in Wireshark - Techniques for Precise Network Analysis hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\09. Module 7 - Network Forensics\6. Topic 4 - Exploring Network Statistics - Insights and Analysis hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\09. Module 7 - Network Forensics\7. Capture File Properties hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\09. Module 7 - Network Forensics\8. Protocol Hierarchy hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\1. Proactive Human-driven Threat Hunting hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\10. Stages of Threat Hunting in Detail - what to hunt for hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\11. Stages of Threat Hunting in Detail - hunting techniques hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\12. Stages of Threat Hunting in Detail - output of the hunt hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\13. Elastic SIEM - Modern, Scalable Threat Detection hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\14. Elastic SIEM - Components and Architecture hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\15. Starting and Accessing Elastic Stack and Kibana hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\16. Elastic Agent and Fleet Management Overview hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\17. Enroll Elastic Agent via Fleet in Kibana hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\18. Exploring Kibana Concepts and Filtering Data hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\19. Dashboards and Data Visualization in Kibana hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\2. Proactive Human-driven Threat Hunting - Behavior-based detection hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\20. Creating a Custom Detection Rule with MITRE ATT&CK Framework hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\22. Endpoint Threat Hunting - Proactive Security Measures hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\23. Endpoint Hunting for Persistence hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\24. Endpoint Hunting for Lateral Movement hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\25. Endpoint Hunting for Credential Dumping hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\26. Proactively Detecting Threats - Network Hunting Fundamentals hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\27. Network Hunting for Lateral Movement hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\28. Network Hunting for Data Exfiltration hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\29. Lab - Yara - Intel sharing (FireEye case) hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\3. Proactive Human-driven Threat Hunting - Proactive hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\4. Proactive Human-driven Threat Hunting - Hypothesis-based hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\5. Proactive Human-driven Threat Hunting - Human-driven hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\6. Proactive Human-driven Threat Hunting - Automation hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\7. The Importance of Proactive Threat Hunting hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\8. Essential Requirements for Effective Threat Hunting hide01.ir.html
+D:\Certified CyberDefender (CCD) Blue Team Training 2025\10. Module 8 - Threat Hunting\9. Stages of Threat Hunting in Detail hide01.ir.html
